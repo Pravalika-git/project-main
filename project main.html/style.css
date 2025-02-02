@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Hamburger Icon */
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    width: 30px;
+    height: 4px;
+    background-color: black;
+    margin: 5px 0;
+    transition: 0.4s;
+}
+
+/* Navigation Menu */
+.nav-menu {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.nav-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-menu ul li {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.nav-menu ul li:last-child {
+    border-bottom: none;
+}
+
+.nav-menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    display: block;
+}
+
+.nav-menu ul li:hover {
+    background-color: #f1f1f1;
+}
+
+/* Show menu when active */
+.nav-menu.active {
+    display: block;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+    .hamburger {
+        display: none;
+    }
+
+    .nav-menu {
+        display: flex;
+        position: relative;
+        top: 0;
+        right: 0;
+        box-shadow: none;
+        width: auto;
+    }
+
+    .nav-menu ul {
+        display: flex;
+    }
+
+    .nav-menu ul li {
+        padding: 10px 20px;
+        border-bottom: none;
+    }
+}

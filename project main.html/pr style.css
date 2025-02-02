@@ -1,0 +1,474 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.collection-container{
+    background-color:#f6f6f6 ; 
+    border-radius: 8px;
+     display: flex;
+      margin: 20px; 
+     margin-top:300px;
+     justify-content: space-evenly;
+      height: 500px; 
+} 
+
+.new_collection{
+    width:250px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      padding-bottom: 5px;
+    margin-top:40px;
+    margin-left: 40px; 
+     margin-bottom: 80px; 
+     background-color:#f6f6f6 ; 
+
+}
+.collection_img {
+    display: flex;
+    align-items: center;
+
+}
+.text1{
+    margin-bottom: 40px; 
+   font-family:Georgia, 'Times New Roman', Times, serif ;
+
+}
+.para-1{
+   margin-bottom:30px;  
+   background-color:#f6f6f6 ;
+}
+.explore{
+   margin-bottom:20px ;
+   display: inline-block;
+   width: 100px;
+   height: 20px;
+   font-size: 1rem;
+   background-color:#f6f6f6 ;
+
+} 
+
+.explore:hover{
+    cursor: pointer;
+    color: orange;
+} 
+
+.highlight{
+    color: orange;
+    cursor: pointer;
+}
+
+.text-2{
+    font-family: "serif";
+    display: flex;
+   justify-content: center;
+   position: relative;
+
+}
+.third-container {
+    display:flex;
+    margin: 50px;
+  
+}
+
+
+.img1{
+    margin: 10px;
+    height: 300px;
+    width: 500px;
+    
+}
+.img2{
+    margin: 10px;
+    height: 300px;
+    width: 500px;
+
+}
+.img3{
+    margin: 10px;
+    height: 300px;
+    width: 500px;
+}
+
+.img1{
+    background-image:url(http://jevelin.shufflehound.com/minimal-furniture-shop/wp-content/uploads/sites/42/2018/03/Layer-673.jpg?id=495);
+    height: 500px;
+    background-repeat:no-repeat;
+    position: relative;
+}
+  
+.light {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    font-size: 2rem;
+
+}
+.decor{
+    position: absolute;
+    top: 60%;
+    left: 20%;
+
+}
+
+
+.img2{
+    background-image:url(http://jevelin.shufflehound.com/minimal-furniture-shop/wp-content/uploads/sites/42/2018/03/Layer-675-copy-2.jpg?id=497);
+    height: 500px;
+    background-repeat:no-repeat;
+    position: relative;
+  
+/*   
+      }
+      .kitchen{
+          position: absolute;
+          top: 40%;
+          left: 10%;
+          font-size: 2rem;
+
+      }
+      .show{
+          position: absolute;
+          top: 60%;
+          left: 20%;
+
+      } */
+
+      .img3{
+        background-image: url(http://jevelin.shufflehound.com/minimal-furniture-shop/wp-content/uploads/sites/42/2018/03/Layer-674.jpg?id=496);
+        height: 500px;
+        background-repeat:no-repeat; 
+        position: relative;
+
+    }
+    .living{
+        position: absolute;
+        top: 40%;
+        left: 10%;
+        font-size: 2rem;
+
+    }
+    .show{
+        position: absolute;
+        top: 60%;
+        left: 20%;
+
+    }
+    .fourth-container{
+        padding: 10px;
+        border:  4px solid black;
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+    .fifth-container{ 
+      height:550px;
+      width:100vw;
+        border: 4px solid red; 
+        display: flex;
+        background-color: #f6f6f6;
+        margin-bottom: 20%;
+        line-height:60px; 
+     
+    }
+
+    .fifth-container img{
+        width: 200px;
+         margin-left:200px; 
+        /* padding: 0px; */
+        height: 500px;
+    }
+     .five-text{
+        margin-left:10%;
+    } 
+     .our{
+        font-size: 1.2rem;
+
+     }
+     .special{
+line-height: 30px;
+
+     }
+     .btn1 {
+        width: 150px;
+        margin: 60px;
+        background-color: black;
+        color: white;
+    }
+    .btn1:hover{
+        background-color: rgb(234, 156, 40);
+    }
+
+    
+    .five-text{
+        
+        text-align: center;
+        padding-top: 10%;
+        font-size: 35px;
+        font-weight: 600px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+
+    .sixth-container{
+        display: flex;
+        justify-content: space-evenly;
+        margin:10px;
+    }
+
+    
+    .box-1{
+        border-right:5px rgb(235, 229, 229) solid ;
+
+    }
+    .box-2{
+        border-right:5px  rgb(235, 229, 229) solid ;
+    
+    }
+    .box-3{
+        border-right:5px rgb(235, 229, 229) solid ;
+    
+    }
+    .h2text{
+        margin:20px;
+    }
+    .ptext{
+        margin: 10px;
+
+    }
+    
+
+    .p1text{
+        margin-left:80%;
+        font-size: 1.5rem;
+        background-color:black;
+        color: white;
+        display: flex;
+        justify-content: center;
+    
+    }
+    .p1text:hover{
+        background-color: orange;
+        cursor: pointer;
+
+    }
+    .ideas{
+        margin-bottom:40px;
+        
+    }
+    .seventh-container{
+        border: 3px solid violet;
+
+    }
+
+    
+    .seventh-container img{
+        
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        border: 4px solid blue;
+
+    }
+    .seven-img{
+        width: 500px;
+
+    }
+    .eight-container{
+        display: flex;
+        justify-content: space-between;
+
+
+    }
+    .items{
+        background-color:  2px solid salmon;
+        display: flex;
+
+    }
+    .eight-container1{
+        margin: 10px;
+        border: 4px solid blue;
+        width: 100%;
+        display: flex;
+        align-items: center;
+         gap: 10px; 
+        justify-content: space-evenly;
+    
+
+    }
+    .item1{
+        background-color:  2px solid salmon;
+        display: flex;
+
+    }
+    .items img,.item1 img{
+        width: 300px;
+        height: 300px;
+    }
+    .item-box1 ,.item-box2 ,.item-box3,.item-box4,.item-box5,.item-box6,.item-box7,.item-box8{
+       width:400px;
+       text-align: center;
+    }
+
+    .nineth-container{
+        height: 600px;
+        padding: 100px;
+        margin-top: 5%;
+     background-color: #ffffff;
+    border: 2px solid white;
+    padding: 10px;
+    }
+    .btn2 {
+      background-color:black; 
+        color:white;
+        width: 100px;
+        font-size: 1.2rem;
+
+    }
+.btn2:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+.six{
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.lorem{
+    padding-bottom: 10px;
+}
+
+.text{
+    padding-top:70px;
+    border-radius: 50px;
+}
+
+.ten-container{
+    border: 4px solid pink;
+    display: flex;
+    justify-content: space-evenly;
+     margin-bottom: 90px;
+    padding-left: 10px;
+    background-color:#f6f6f6;
+ 
+}
+.pay {
+    padding: 15px;
+}
+.cards{
+    padding: 30px;
+    display: flex;
+    gap:15px;
+    margin-right:60px;
+
+}
+.secure{
+    padding: 8px;
+
+}
+
+.one{
+    border: 3px solid red;
+} 
+.two{
+border: 3px solid brown;
+}
+
+.top{
+    border: 4px solid blue;
+    margin-top: 20px;
+     margin-right:20px; 
+    margin-bottom:0px;
+    display: flex;
+    justify-content: start;
+}
+.imgtop{
+    border:  3px solid green;
+      padding-right: 100%;
+      
+}
+
+
+
+ .h5{
+    margin-top:40px;
+}
+
+.top{
+    margin-top: 60px;
+     margin-left: 40px; 
+    margin-bottom:60px;
+}
+.item-box6 , img{
+     display: flex;
+}
+     .text-4{
+        padding: 15px;
+        display: flex;
+     }
+
+     .three{
+        
+        margin-left: 50px;  
+    }
+    .p-1 , .p-2 , .p-3 , .p-4 ,.p-5 , .p-6 , .p-7 {
+        padding: 10px;
+        margin: 5px;
+    }
+    .four{
+        
+         margin-left:20px;
+        padding: 20px;
+    }
+    
+     
+
+    
+
+  
+} */
+
+/* .item-box6 , .item-box7 {
+    display: flex;  
+}
+
+/* .item-box6 {
+    margin-left: 100px;
+    margin-bottom:80px;
+} */
+
+
+
+/* .item-box8{
+    margin-top: 10px;
+} */
+
+/* h3{
+    margin-top:5px;
+} */
+/* p{
+    margin-top:40px;
+    margin-right:200px;
+} */ */
+
+
+
+    
+
+
+
+ 
+
+
+
+
+
+
+
+
+

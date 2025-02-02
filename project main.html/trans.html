@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+       .ten-container{
+        display: grid;
+        grid-template-areas: 
+        'a b c d';
+        grid-template-columns: repeat(1fr,4)
+        
+       }
+       .one{
+         grid-area: a;
+         
+       }
+       .ten1-container{
+        grid-area: b;
+       }
+       .three{
+        grid-area: c;
+       }
+       .four{
+        grid-area: d;
+       }
+    </style>
+
+    <div class="ten-container">
+        <div class="one">  
+         <h3 class="pay">PAYMENT METHOD</h3>
+         <P>Lorem ipsum dolor sit amet, consectetuer  
+             <BR>adipiscing elit, sed diam nonummy nibh  <BR>
+                 euismod tincidunt ut laoreet dolore.</P>
+                 <div class="cards">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-credit-card" viewBox="0 0 16 16">
+                         <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                         <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+                       </svg>
+                 
+ 
+                       <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-credit-card-2-back" viewBox="0 0 16 16">
+                         <path d="M11 5.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5z"/>
+                         <path d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zm13 2v5H1V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1m-1 9H2a1 1 0 0 1-1-1v-1h14v1a1 1 0 0 1-1 1"/>
+                       </svg>
+ 
+                       <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-credit-card-2-front-fill" viewBox="0 0 16 16">
+                         <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2.5 1a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm0 3a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zm0 2a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1zm3 0a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1zm3 0a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1zm3 0a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1z"/>
+                       </svg>
+ 
+                       <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-credit-card-fill" viewBox="0 0 16 16">
+                         <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v1H0zm0 3v5a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7zm3 2h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1a1 1 0 0 1 1-1"/>
+                       </svg>
+                     </div>
+ 
+                 <p class="secure">Secure online payment</p>
+             </div> 
+ 
+      <div class="ten1-container">
+         <h2>TOP RATED</h2>
+         <div class="product">
+             <img src="https://jevelin.shufflehound.com/minimal-furniture-shop/wp-content/uploads/sites/42/2018/03/5559331632_2_1_1_0011_jeremy-lwanga-uUwEAW5jFLE-unsplash-300x300.jpg" alt="Table succulent plant">
+             <div class="info">
+                 <p class="name">Table succulent plant</p>
+                 <p class="price">£5.00</p>
+             </div>
+         </div>
+ 
+         <div class="product">
+             <img src="https://jevelin.shufflehound.com/minimal-furniture-shop/wp-content/uploads/sites/42/2018/03/5559331632_2_1_1_0010_sincerely-media-VDPauwJ_sHo-unsplash-300x300.jpg" alt="Metallic sidetable lamp">
+             <div class="info">
+                 <p class="name">Metallic sidetable lamp</p>
+                 <p class="price">£5.00</p>
+             </div>
+         </div>
+         
+         <div class="product">
+             <img src="https://jevelin.shufflehound.com/minimal-furniture-shop/wp-content/uploads/sites/42/2018/03/5559331632_2_1_1_0009_minh-pham-Wn1gmozpNZc-unsplash-660x660.jpg" alt="Wooden picture frame">
+             <div class="info">
+                 <p class="name">Wooden picture frame</p>
+                 <p class="price">£5.00</p>
+             </div>
+         </div>
+     </div>
+  
+ 
+      
+ 
+      <div class="three">
+         <h4 class="text-4">SHOPPING GUIDE</h4>
+         <div class="three-text">
+         <P >  FAQ  </P>
+         <P> Shipment </P>
+             <P> Returns </P>
+                 <P> Policies </P> 
+                     <P> Gift cards </P>
+                         <P>  Clothing care </P>
+                             <P> Purchase conditions </P>
+                                           </div>
+                                         </div>
+     
+                              <div class="four">
+                                <h4 class="h4">COMPANY</h4>
+                                <P> About Us </P>
+                                <p> Press </P>
+                                 <P >Our team </P>
+                                 <p>Offices </P>
+                                 <p>  Affiliates </P>
+                                 <P> Giveaway </P>
+                                 <P> Contact </P>
+      
+                              </div>                 
+                                
+                                 </div>
+                         
+ 
+ 
+           
+                             
+ 
+    
+ </body>
+ </html>
+ 
+ 
+ 
+ 
