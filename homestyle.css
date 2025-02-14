@@ -1,0 +1,746 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+   
+}
+body{
+     font-size: 1 rem;
+    width: 100vw;
+    /* overflow: hidden; */
+}
+.container-fluid svg{
+    padding: 5px;
+    margin-right: 50px;
+
+}
+ 
+.search_bar{
+    margin-top: 10px;
+    position:relative;
+    right: 0px;
+}
+
+.collection-container{
+    background-color:#f6f6f6 ; 
+    border-radius: 8px;
+     display: flex;
+      margin: 10px; 
+      margin-top: 60px;
+     justify-content: space-evenly;
+     height: 400px;
+     line-height: 70px;
+     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.new_collection{
+     width:200px; 
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:30px;
+    
+     /* margin-top:100px; 
+    margin-right:200px; */
+
+}
+.collection_img {
+    display: flex;
+    align-items: center;
+
+}
+
+ .collection_img img{
+    /* margin: 20px; */
+     width:100%; 
+    height: 400px;
+    /* border-radius: 50%; */
+     
+}  
+
+.text1{
+     /* margin-bottom: 10px; 
+    padding: 70px; */
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+
+}
+.para-1{
+     /* padding:5px; 
+     margin:10px;   */
+    background-color:#f6f6f6 ;
+
+
+}
+.explore{
+    padding: 10px;
+    /* margin-bottom:20px ; */
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+    font-size: 1rem;
+    background-color:#f6f6f6 ;
+
+}
+
+.explore:hover{
+    cursor: pointer;
+    color: orange;
+}
+.highlight{
+    color: orange;
+    cursor: pointer;
+}
+
+.text-2{
+    font-family: "serif";
+    display: flex;
+   justify-content: center;
+   position: relative;
+}
+ 
+
+.img1{
+    background-image:url(http://jevelin.shufflehound.com/minimal-furniture-shop/wp-content/uploads/sites/42/2018/03/Layer-673.jpg?id=495);
+    height: 500px;
+    background-repeat:no-repeat;
+    position: relative;
+}
+
+.third-container {
+    display:flex;
+    margin: 50px;
+  
+}
+.third-container1{
+    background-image:url(http://jevelin.shufflehound.com/minimal-furniture-shop/wp-content/uploads/sites/42/2018/03/Layer-673.jpg?id=495);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.third-container1 .img1 , .third-container2, .img3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-container2 .img2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.third-container2{
+    background-image: url(http://jevelin.shufflehound.com/minimal-furniture-shop/wp-content/uploads/sites/42/2018/03/Layer-675-copy-2.jpg?id=497);
+    display:flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+ .img1 ,.img2 ,.img3{
+    margin: 10px;
+    height: 300px;
+    width: 500px;
+    
+} 
+ 
+  .img1{
+    height: 500px;
+    background-repeat:no-repeat;
+     position: relative; 
+}  
+
+  
+ .light {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    font-size: 2rem;
+
+}
+.decor{
+    position: absolute;
+    top: 60%;
+    left: 20%; 
+ 
+}  
+
+   .img2{
+    background-image:url(http://jevelin.shufflehound.com/minimal-furniture-shop/wp-content/uploads/sites/42/2018/03/Layer-675-copy-2.jpg?id=497);
+    height: 500px;
+    background-repeat:no-repeat;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+     text-align: center ;  
+
+      }  
+       
+        .img3{
+        background-image: url(http://jevelin.shufflehound.com/minimal-furniture-shop/wp-content/uploads/sites/42/2018/03/Layer-674.jpg?id=496);
+        height: 500px;
+        background-repeat:no-repeat; 
+        position: relative;
+        flex-direction: column;
+        justify-content: center ;
+         text-align: center ;  
+
+    }
+
+
+
+    .fourth-container{
+        padding: 10px;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 60px; 
+
+    
+    }
+
+    .fifth-container{ 
+       width:100%; 
+      height:300px;
+        display: flex;
+        justify-content: space-around;
+        background-color: #f6f6f6;
+        margin-top: 100px; 
+        /* border: 2px solid black; */
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+     
+    }
+    .fifth-container img{
+         width:20%;
+        
+    }
+ 
+    .btn1:hover{
+        background-color: rgb(234, 156, 40);
+    }
+    .five-text  .btn1 :hover{
+        background-color: aquamarine;
+        cursor: pointer;
+    }
+    .sixth-container{
+        display: flex;
+        justify-content: space-evenly;
+        margin:80px;
+    }
+
+    .box-1{
+        border-right:5px rgb(235, 229, 229) solid ;
+
+    }
+    .box-2{
+        border-right:5px  rgb(235, 229, 229) solid ;
+    
+    }
+    .box-3{
+        border-right:5px rgb(235, 229, 229) solid ;
+    
+    }
+    .h2text{
+        margin:20px;
+    }
+    .ptext{
+        margin: 10px;
+
+    }
+
+
+    .p1text{
+        margin-left:80%;
+        font-size: 1.5rem;
+        background-color:black;
+        color: white;
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    .p1text:hover{
+        background-color: orange;
+        cursor: pointer;
+
+    }
+    .ideas{
+        margin-bottom:30px;
+        margin-left:180px ;
+        
+    }
+     .seventh-container{
+        margin-top: 100px;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+    } 
+
+    .seven-img img{
+        width:80%;
+    }
+    .seven-img{
+        width: 100%;
+        margin-left:200px;
+        height: 500px;
+
+    }
+    .seven-img .p1text{
+         margin-right: 100%;
+     
+    }
+    .ptext{
+        width:70%;
+        
+    }
+    .p1text{
+        width: 100px;
+
+    }
+    .h2text{
+ 
+        width: 300px;
+      /* margin-bottom:0px; */
+    }
+    .great1{
+        margin-left:40%;
+    }    
+    
+        .eight-container{
+            margin-top:300px;
+            display: grid;
+             grid-template-columns:repeat(4,1fr) ; 
+            
+            grid-template-areas: 
+            'a b c d'
+            'e f g h';
+        }
+        .item-1{
+            grid-area: a;
+
+
+        }
+        .item-2{
+            grid-area: b;
+
+        }
+        .item-3{
+            grid-area: c;
+
+        }
+        .item-4{
+            grid-area: d;
+
+
+        }
+        .item-5{
+            grid-area: e;
+
+        }
+        .item-6{
+            grid-area: f;
+
+
+        }
+        .item-7{
+            grid-area: g;
+        }
+        .item-8{
+            grid-area: h;
+
+        }
+        
+     .eight-container img{
+         width:90%;
+     }
+
+
+    .nineth-container{
+        height: 300px;
+         /* padding: 100px;  */
+         margin-top: 110px; 
+     background-color: #ffffff;
+    padding: 10px;
+
+    }
+
+    .btn2 {
+      background-color:black; 
+        color:white;
+        width: 100px;
+        font-size: 1.2rem;
+
+    }
+.btn2:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+.six{
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.lorem{
+    padding-bottom: 10px;
+}
+
+.text{
+    padding-top:70px;
+    border-radius: 50px;
+}
+ .footer{
+
+    display:flex;
+    width: 100%;
+    padding: 20px;
+    justify-content: space-evenly;
+       
+  
+}
+
+.pay {
+    padding: 15px;
+}
+.cards{
+    width:180px; 
+    padding: 30px;
+    display: flex;
+    gap:15px;
+
+   
+}
+
+.one{
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.secure{
+    padding: 8px;
+
+}
+
+
+.ten1-container {
+    width: 400px;
+    font-family: Arial, sans-serif;
+      background-color:#f6f6f6;
+      padding: 20px;
+      margin: 10px;
+       border-radius: 8px; 
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .product{
+    width:150px;
+    padding: 10px;
+ }
+  
+  h2 {
+      font-size: 18px;
+      margin-bottom: 15px;
+  }
+  
+  .product {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+  }
+  
+  .product img {
+      width: 60px;
+      height: 60px;
+      object-fit: cover;
+      border-radius: 4px;
+      margin-right: 15px;
+  }
+  
+  .info {
+      flex: 1;
+  }
+  
+  .name {
+      font-size: 14px;
+      font-weight: bold;
+      margin: 0;
+  }
+  
+  .price {
+      font-size: 14px;
+      color: #444;
+      margin: 5px 0 0;
+  }
+
+
+.three {
+background-color:#f6f6f6 ;
+width:400px;
+  padding:20px; 
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.three-text p{
+    width: 300px;
+
+}
+
+
+.four{
+    padding: 20px;
+    width: 400px;
+    background-color:#f6f6f6 ;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+}
+
+.four p{
+    width: 300px;
+}
+
+.p-1 , .p-2 , .p-3 , .p-4 ,.p-5 , .p-6 , .p-7 {
+padding: 10px;
+margin: 5px;
+}
+ 
+.top{
+    
+    margin-top: 20px;
+     margin-right:20px; 
+    margin-bottom:0px;
+    display: flex;
+    justify-content: start;
+}
+ 
+
+.three{
+    padding:10px;
+    margin: 20px;
+}
+ 
+
+
+
+.new-collection-button{
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+     } 
+     .collection-text{
+        padding: 40px;
+   
+
+     }
+     .collection-container{
+        padding: 80px;
+     
+     }
+    
+ 
+
+.new-collection-button:hover {
+    color: white;
+    background-color: #333; /* Darker background on hover */
+    box-shadow: 0 4px 8px rgba(135, 4, 4, 0.3); /* More prominent shadow on hover */
+    animation: glow 0.5s ease-in-out infinite alternate; /* Apply glow animation */
+}
+
+@keyframes glow {
+    from {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 0 10px rgba(255, 255, 255, 0.1); /* Start with a subtle glow */
+    }
+    to {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 0 20px rgba(255, 255, 255, 0.3); /* Increase glow intensity */
+    }
+}
+
+@media screen  and (max-width : 500px){
+ 
+    .collection_img img{
+        border-radius:4px ;
+        border: 2px saddlebrown solid;
+        display: none;
+     
+     }
+     .third-container{
+        display: block;
+        margin: 10px;
+   
+     }
+     .fourth-container{
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+     }
+     .fourth-container img{
+     
+        width:50%;
+        height: 100px;
+      
+     }
+    .sixth-container{
+        display:block;
+    
+    }
+    .footer ,.ten1-container {
+        display: block;
+        border: 2px solid black;
+        
+    }
+    
+
+    .fifth-container{
+        display: fl;
+  
+    }
+    .four{
+        margin: 20px;
+      
+    }
+     .five1{
+        margin-top: 90px;
+     
+    }
+    .sixth-container{
+        margin-top:100px; 
+     
+    }
+     .great1{
+        width:30%;
+  
+    }
+   
+    .box_six{
+        border: none;
+         
+    }
+    .seventh-container{
+        width:100%;
+         margin-bottom:50px; 
+        
+     }
+    .seven-img{
+        margin-left: 20px;
+        
+        width: 90%;
+    }
+    
+
+    .seven-img img{
+         margin-right:80px;
+         width:80%;
+         height: 500px;
+        
+    }
+    .h2text{
+        margin-right:80px;
+        
+    }
+     .seventh-container p{
+        margin-right:50px;
+        
+    } 
+    .ptext  {
+        margin-right: 80px;
+     
+    }
+    .p1text{
+        margin-bottom: 30px;
+        /* margin-left: 10%; */
+   
+    }
+
+     .p1text:hover{
+    
+        cursor: pointer;
+    
+    } 
+     .footer{
+        width:100%;
+        height: auto;
+       
+     }
+     .footer .one,.ten1-container,.three,.four{
+        width:90%;
+        
+     }
+    /* .eight-container .items ,.item1{
+        display: block;
+    }
+     */
+}
+
+
+@media screen  and (min-width : 501px) and (max-width :850px) {
+.fifth-container{
+   
+    width: 800px;
+    height: 400px;
+
+}
+
+ .sixth-container{
+    height: 400px;
+    padding: 70px;
+    
+ }
+
+ .box_six{
+    margin-top: 90px;
+ }
+
+ .btn1{
+    margin-left:80%;
+    margin: 0%;
+ }
+ .h2text  {
+    margin-right: 800px;
+ }
+ .ptext{
+    margin-right: 700px;
+
+ }
+ .one{
+    margin: 10px;
+    padding: 10px;
+ }
+
+ .cards{
+    width:180px; 
+
+ }
+ .footer{
+    width:60%;
+    height: auto;
+   
+ }
+
+ .footer .one,.ten1-container,.three,.four{
+    width:50%;
+    
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
